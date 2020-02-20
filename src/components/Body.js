@@ -1,10 +1,9 @@
 import React from 'react';
 
-export default function Body() {
+export default function Body({ children }) {
 	return (
 		<div>
-			<h2>Öppettider</h2>
-			<h4>Måndag Stängt</h4>
+			<>{children}</>
 			<style jsx>{`
 				display: flex;
 				flex-direction: column;

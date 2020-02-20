@@ -1,11 +1,14 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default function Button({ text = 'Click Me', link = '/' }) {
 	return (
 		<>
-			<button>
-				<a href={link}>{text}</a>
-			</button>
+			<Link href={link}>
+				<button>
+					<a>{text}</a>
+				</button>
+			</Link>
 			<style jsx>
 				{`
 					.button,
