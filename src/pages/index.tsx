@@ -1,9 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Nav from '../components/Nav';
 import Body from '../components/Body';
 import PageWrapper from '../components/PageWrapper';
 
 export default function HomePage() {
+	const [foodImage, setFoodImage] = useState(1);
+
+	useEffect(() => {
+		const interval = setInterval(() => {
+			console.log('yoooo', foodImage);
+			// IF STATMENT?
+			setFoodImage(foodImage + 1);
+		}, 3000);
+		return () => clearInterval(interval);
+	}, [foodImage]);
+
 	return (
 		<PageWrapper>
 			<div>
@@ -14,7 +25,7 @@ export default function HomePage() {
 						<h4>Måndag Stängt</h4>
 					</div>
 					<img
-						src="http://www.wok88.se/foto/bild2.jpg"
+						src={`http://www.wok88.se/foto/bild${foodImage}.jpg`}
 						alt="food stuff in this one"
 					/>
 				</Body>
