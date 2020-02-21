@@ -9172,10 +9172,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./src/components/Body.js":
-/*!********************************!*\
-  !*** ./src/components/Body.js ***!
-  \********************************/
+/***/ "./src/components/Body.tsx":
+/*!*********************************!*\
+  !*** ./src/components/Body.tsx ***!
+  \*********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9186,7 +9186,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/components/Body.js";
+var _jsxFileName = "/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/components/Body.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -9203,15 +9203,15 @@ function Body({
   }, __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, children), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3579384912",
     __self: this
-  }, ".jsx-3579384912{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;background:cornsilk;margin:auto;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9rYXJuZWxsLnNjaHVsdHovRG9jdW1lbnRzL2phdmFTY3JpcHQvd29rODhOZXh0L3dvazg4bmV4dC9zcmMvY29tcG9uZW50cy9Cb2R5LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU1lLEFBRWtCLDBFQUNTLDhFQUNGLG9CQUNSLFlBQ2IiLCJmaWxlIjoiL1VzZXJzL2thcm5lbGwuc2NodWx0ei9Eb2N1bWVudHMvamF2YVNjcmlwdC93b2s4OE5leHQvd29rODhuZXh0L3NyYy9jb21wb25lbnRzL0JvZHkuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBCb2R5KHsgY2hpbGRyZW4gfSkge1xuXHRyZXR1cm4gKFxuXHRcdDxkaXY+XG5cdFx0XHQ8PntjaGlsZHJlbn08Lz5cblx0XHRcdDxzdHlsZSBqc3g+e2Bcblx0XHRcdFx0ZGlzcGxheTogZmxleDtcblx0XHRcdFx0ZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcblx0XHRcdFx0YmFja2dyb3VuZDogY29ybnNpbGs7XG5cdFx0XHRcdG1hcmdpbjogYXV0bztcblx0XHRcdGB9PC9zdHlsZT5cblx0XHQ8L2Rpdj5cblx0KTtcbn1cbiJdfQ== */\n/*@ sourceURL=/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/components/Body.js */"));
+  }, ".jsx-3579384912{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;background:cornsilk;margin:auto;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9rYXJuZWxsLnNjaHVsdHovRG9jdW1lbnRzL2phdmFTY3JpcHQvd29rODhOZXh0L3dvazg4bmV4dC9zcmMvY29tcG9uZW50cy9Cb2R5LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFNZSxBQUVrQiwwRUFDUyw4RUFDRixvQkFDUixZQUNiIiwiZmlsZSI6Ii9Vc2Vycy9rYXJuZWxsLnNjaHVsdHovRG9jdW1lbnRzL2phdmFTY3JpcHQvd29rODhOZXh0L3dvazg4bmV4dC9zcmMvY29tcG9uZW50cy9Cb2R5LnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEJvZHkoeyBjaGlsZHJlbiB9KSB7XG5cdHJldHVybiAoXG5cdFx0PGRpdj5cblx0XHRcdDw+e2NoaWxkcmVufTwvPlxuXHRcdFx0PHN0eWxlIGpzeD57YFxuXHRcdFx0XHRkaXNwbGF5OiBmbGV4O1xuXHRcdFx0XHRmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuXHRcdFx0XHRiYWNrZ3JvdW5kOiBjb3Juc2lsaztcblx0XHRcdFx0bWFyZ2luOiBhdXRvO1xuXHRcdFx0YH08L3N0eWxlPlxuXHRcdDwvZGl2PlxuXHQpO1xufVxuIl19 */\n/*@ sourceURL=/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/components/Body.tsx */"));
 }
 
 /***/ }),
 
-/***/ "./src/components/Button.js":
-/*!**********************************!*\
-  !*** ./src/components/Button.js ***!
-  \**********************************/
+/***/ "./src/components/Button.tsx":
+/*!***********************************!*\
+  !*** ./src/components/Button.tsx ***!
+  \***********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9224,7 +9224,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/components/Button.js";
+var _jsxFileName = "/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/components/Button.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -9257,15 +9257,15 @@ function Button({
   }, text))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3769058734",
     __self: this
-  }, ".button.jsx-3769058734,a.button.jsx-3769058734,button.jsx-3769058734,[type='submit'].jsx-3769058734,[type='reset'].jsx-3769058734,[type='button'].jsx-3769058734{-webkit-appearance:none;display:inline-block;border:1px solid #0366ee;border-radius:4px;background:#0366ee;color:#ffffff;font-weight:600;font-family:-apple-system,BlinkMacSystemFont,Helvetica Neue, Helvetica,Arial,sans-serif;font-size:1rem;text-transform:none;padding:0.75rem 1.25rem;margin:0 0 0.5rem 0;vertical-align:middle;text-align:center;cursor:pointer;-webkit-text-decoration:none;text-decoration:none;line-height:1;}.button.jsx-3769058734:hover,a.button.jsx-3769058734:hover,button.jsx-3769058734:hover,[type='submit']:hover.jsx-3769058734,[type='reset']:hover.jsx-3769058734,[type='button']:hover.jsx-3769058734{border:1px solid #0250bc;background:#0250bc;color:#ffffff;-webkit-text-decoration:none;text-decoration:none;}.button.jsx-3769058734:focus,.button.jsx-3769058734:active,a.button.jsx-3769058734:focus,a.button.jsx-3769058734:active,button.jsx-3769058734:focus,button.jsx-3769058734:active,[type='submit']:focus.jsx-3769058734,[type='submit']:active.jsx-3769058734,[type='reset']:focus.jsx-3769058734,[type='reset']:active.jsx-3769058734,[type='button']:focus.jsx-3769058734,[type='button']:active.jsx-3769058734{border:1px solid #0250bc;background:#0250bc;color:#ffffff;-webkit-text-decoration:none;text-decoration:none;}.button.jsx-3769058734::-moz-focus-inner,a.button.jsx-3769058734::-moz-focus-inner,button.jsx-3769058734::-moz-focus-inner,[type='submit']::-moz-focus-inner.jsx-3769058734,[type='reset']::-moz-focus-inner.jsx-3769058734,[type='button']::-moz-focus-inner.jsx-3769058734{border:0;padding:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9rYXJuZWxsLnNjaHVsdHovRG9jdW1lbnRzL2phdmFTY3JpcHQvd29rODhOZXh0L3dvazg4bmV4dC9zcmMvY29tcG9uZW50cy9CdXR0b24uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBWUssQUFRK0IsQUEwQkMsQUFrQkEsQUFZaEIsU0FDQyxVQUNYLEtBekRzQixDQTBCRixBQWtCQSxtQkFqQkwsQUFrQkEsQ0E1Q1csYUEyQkosQUFrQkEsWUE1Q0gsa0JBQ0MsbUJBQ0wsQ0F5QmYsQUFrQkEsYUExQ2lCLGdCQUVhLHdGQUNkLGVBQ0ssb0JBQ0ksd0JBQ0osb0JBQ0Usc0JBQ0osa0JBQ0gsZUFDTSxrREFDUCxjQUNmIiwiZmlsZSI6Ii9Vc2Vycy9rYXJuZWxsLnNjaHVsdHovRG9jdW1lbnRzL2phdmFTY3JpcHQvd29rODhOZXh0L3dvazg4bmV4dC9zcmMvY29tcG9uZW50cy9CdXR0b24uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQnV0dG9uKHsgdGV4dCA9ICdDbGljayBNZScsIGxpbmsgPSAnLycgfSkge1xuXHRyZXR1cm4gKFxuXHRcdDw+XG5cdFx0XHQ8TGluayBocmVmPXtsaW5rfT5cblx0XHRcdFx0PGJ1dHRvbj5cblx0XHRcdFx0XHQ8YT57dGV4dH08L2E+XG5cdFx0XHRcdDwvYnV0dG9uPlxuXHRcdFx0PC9MaW5rPlxuXHRcdFx0PHN0eWxlIGpzeD5cblx0XHRcdFx0e2Bcblx0XHRcdFx0XHQuYnV0dG9uLFxuXHRcdFx0XHRcdGEuYnV0dG9uLFxuXHRcdFx0XHRcdGJ1dHRvbixcblx0XHRcdFx0XHRbdHlwZT0nc3VibWl0J10sXG5cdFx0XHRcdFx0W3R5cGU9J3Jlc2V0J10sXG5cdFx0XHRcdFx0W3R5cGU9J2J1dHRvbiddIHtcblx0XHRcdFx0XHRcdC13ZWJraXQtYXBwZWFyYW5jZTogbm9uZTtcblx0XHRcdFx0XHRcdGRpc3BsYXk6IGlubGluZS1ibG9jaztcblx0XHRcdFx0XHRcdGJvcmRlcjogMXB4IHNvbGlkICMwMzY2ZWU7XG5cdFx0XHRcdFx0XHRib3JkZXItcmFkaXVzOiA0cHg7XG5cdFx0XHRcdFx0XHRiYWNrZ3JvdW5kOiAjMDM2NmVlO1xuXHRcdFx0XHRcdFx0Y29sb3I6ICNmZmZmZmY7XG5cdFx0XHRcdFx0XHRmb250LXdlaWdodDogNjAwO1xuXHRcdFx0XHRcdFx0Zm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgSGVsdmV0aWNhIE5ldWUsXG5cdFx0XHRcdFx0XHRcdEhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWY7XG5cdFx0XHRcdFx0XHRmb250LXNpemU6IDFyZW07XG5cdFx0XHRcdFx0XHR0ZXh0LXRyYW5zZm9ybTogbm9uZTtcblx0XHRcdFx0XHRcdHBhZGRpbmc6IDAuNzVyZW0gMS4yNXJlbTtcblx0XHRcdFx0XHRcdG1hcmdpbjogMCAwIDAuNXJlbSAwO1xuXHRcdFx0XHRcdFx0dmVydGljYWwtYWxpZ246IG1pZGRsZTtcblx0XHRcdFx0XHRcdHRleHQtYWxpZ246IGNlbnRlcjtcblx0XHRcdFx0XHRcdGN1cnNvcjogcG9pbnRlcjtcblx0XHRcdFx0XHRcdHRleHQtZGVjb3JhdGlvbjogbm9uZTtcblx0XHRcdFx0XHRcdGxpbmUtaGVpZ2h0OiAxO1xuXHRcdFx0XHRcdH1cblxuXHRcdFx0XHRcdC5idXR0b246aG92ZXIsXG5cdFx0XHRcdFx0YS5idXR0b246aG92ZXIsXG5cdFx0XHRcdFx0YnV0dG9uOmhvdmVyLFxuXHRcdFx0XHRcdFt0eXBlPSdzdWJtaXQnXTpob3Zlcixcblx0XHRcdFx0XHRbdHlwZT0ncmVzZXQnXTpob3Zlcixcblx0XHRcdFx0XHRbdHlwZT0nYnV0dG9uJ106aG92ZXIge1xuXHRcdFx0XHRcdFx0Ym9yZGVyOiAxcHggc29saWQgIzAyNTBiYztcblx0XHRcdFx0XHRcdGJhY2tncm91bmQ6ICMwMjUwYmM7XG5cdFx0XHRcdFx0XHRjb2xvcjogI2ZmZmZmZjtcblx0XHRcdFx0XHRcdHRleHQtZGVjb3JhdGlvbjogbm9uZTtcblx0XHRcdFx0XHR9XG5cblx0XHRcdFx0XHQuYnV0dG9uOmZvY3VzLFxuXHRcdFx0XHRcdC5idXR0b246YWN0aXZlLFxuXHRcdFx0XHRcdGEuYnV0dG9uOmZvY3VzLFxuXHRcdFx0XHRcdGEuYnV0dG9uOmFjdGl2ZSxcblx0XHRcdFx0XHRidXR0b246Zm9jdXMsXG5cdFx0XHRcdFx0YnV0dG9uOmFjdGl2ZSxcblx0XHRcdFx0XHRbdHlwZT0nc3VibWl0J106Zm9jdXMsXG5cdFx0XHRcdFx0W3R5cGU9J3N1Ym1pdCddOmFjdGl2ZSxcblx0XHRcdFx0XHRbdHlwZT0ncmVzZXQnXTpmb2N1cyxcblx0XHRcdFx0XHRbdHlwZT0ncmVzZXQnXTphY3RpdmUsXG5cdFx0XHRcdFx0W3R5cGU9J2J1dHRvbiddOmZvY3VzLFxuXHRcdFx0XHRcdFt0eXBlPSdidXR0b24nXTphY3RpdmUge1xuXHRcdFx0XHRcdFx0Ym9yZGVyOiAxcHggc29saWQgIzAyNTBiYztcblx0XHRcdFx0XHRcdGJhY2tncm91bmQ6ICMwMjUwYmM7XG5cdFx0XHRcdFx0XHRjb2xvcjogI2ZmZmZmZjtcblx0XHRcdFx0XHRcdHRleHQtZGVjb3JhdGlvbjogbm9uZTtcblx0XHRcdFx0XHR9XG5cblx0XHRcdFx0XHQuYnV0dG9uOjotbW96LWZvY3VzLWlubmVyLFxuXHRcdFx0XHRcdGEuYnV0dG9uOjotbW96LWZvY3VzLWlubmVyLFxuXHRcdFx0XHRcdGJ1dHRvbjo6LW1vei1mb2N1cy1pbm5lcixcblx0XHRcdFx0XHRbdHlwZT0nc3VibWl0J106Oi1tb3otZm9jdXMtaW5uZXIsXG5cdFx0XHRcdFx0W3R5cGU9J3Jlc2V0J106Oi1tb3otZm9jdXMtaW5uZXIsXG5cdFx0XHRcdFx0W3R5cGU9J2J1dHRvbiddOjotbW96LWZvY3VzLWlubmVyIHtcblx0XHRcdFx0XHRcdGJvcmRlcjogMDtcblx0XHRcdFx0XHRcdHBhZGRpbmc6IDA7XG5cdFx0XHRcdFx0fVxuXHRcdFx0XHRgfVxuXHRcdFx0PC9zdHlsZT5cblx0XHQ8Lz5cblx0KTtcbn1cbiJdfQ== */\n/*@ sourceURL=/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/components/Button.js */"));
+  }, ".button.jsx-3769058734,a.button.jsx-3769058734,button.jsx-3769058734,[type='submit'].jsx-3769058734,[type='reset'].jsx-3769058734,[type='button'].jsx-3769058734{-webkit-appearance:none;display:inline-block;border:1px solid #0366ee;border-radius:4px;background:#0366ee;color:#ffffff;font-weight:600;font-family:-apple-system,BlinkMacSystemFont,Helvetica Neue, Helvetica,Arial,sans-serif;font-size:1rem;text-transform:none;padding:0.75rem 1.25rem;margin:0 0 0.5rem 0;vertical-align:middle;text-align:center;cursor:pointer;-webkit-text-decoration:none;text-decoration:none;line-height:1;}.button.jsx-3769058734:hover,a.button.jsx-3769058734:hover,button.jsx-3769058734:hover,[type='submit']:hover.jsx-3769058734,[type='reset']:hover.jsx-3769058734,[type='button']:hover.jsx-3769058734{border:1px solid #0250bc;background:#0250bc;color:#ffffff;-webkit-text-decoration:none;text-decoration:none;}.button.jsx-3769058734:focus,.button.jsx-3769058734:active,a.button.jsx-3769058734:focus,a.button.jsx-3769058734:active,button.jsx-3769058734:focus,button.jsx-3769058734:active,[type='submit']:focus.jsx-3769058734,[type='submit']:active.jsx-3769058734,[type='reset']:focus.jsx-3769058734,[type='reset']:active.jsx-3769058734,[type='button']:focus.jsx-3769058734,[type='button']:active.jsx-3769058734{border:1px solid #0250bc;background:#0250bc;color:#ffffff;-webkit-text-decoration:none;text-decoration:none;}.button.jsx-3769058734::-moz-focus-inner,a.button.jsx-3769058734::-moz-focus-inner,button.jsx-3769058734::-moz-focus-inner,[type='submit']::-moz-focus-inner.jsx-3769058734,[type='reset']::-moz-focus-inner.jsx-3769058734,[type='button']::-moz-focus-inner.jsx-3769058734{border:0;padding:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9rYXJuZWxsLnNjaHVsdHovRG9jdW1lbnRzL2phdmFTY3JpcHQvd29rODhOZXh0L3dvazg4bmV4dC9zcmMvY29tcG9uZW50cy9CdXR0b24udHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVlLLEFBUStCLEFBMEJDLEFBa0JBLEFBWWhCLFNBQ0MsVUFDWCxLQXpEc0IsQ0EwQkYsQUFrQkEsbUJBakJMLEFBa0JBLENBNUNXLGFBMkJKLEFBa0JBLFlBNUNILGtCQUNDLG1CQUNMLENBeUJmLEFBa0JBLGFBMUNpQixnQkFFYSx3RkFDZCxlQUNLLG9CQUNJLHdCQUNKLG9CQUNFLHNCQUNKLGtCQUNILGVBQ00sa0RBQ1AsY0FDZiIsImZpbGUiOiIvVXNlcnMva2FybmVsbC5zY2h1bHR6L0RvY3VtZW50cy9qYXZhU2NyaXB0L3dvazg4TmV4dC93b2s4OG5leHQvc3JjL2NvbXBvbmVudHMvQnV0dG9uLnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBCdXR0b24oeyB0ZXh0ID0gJ0NsaWNrIE1lJywgbGluayA9ICcvJyB9KSB7XG5cdHJldHVybiAoXG5cdFx0PD5cblx0XHRcdDxMaW5rIGhyZWY9e2xpbmt9PlxuXHRcdFx0XHQ8YnV0dG9uPlxuXHRcdFx0XHRcdDxhPnt0ZXh0fTwvYT5cblx0XHRcdFx0PC9idXR0b24+XG5cdFx0XHQ8L0xpbms+XG5cdFx0XHQ8c3R5bGUganN4PlxuXHRcdFx0XHR7YFxuXHRcdFx0XHRcdC5idXR0b24sXG5cdFx0XHRcdFx0YS5idXR0b24sXG5cdFx0XHRcdFx0YnV0dG9uLFxuXHRcdFx0XHRcdFt0eXBlPSdzdWJtaXQnXSxcblx0XHRcdFx0XHRbdHlwZT0ncmVzZXQnXSxcblx0XHRcdFx0XHRbdHlwZT0nYnV0dG9uJ10ge1xuXHRcdFx0XHRcdFx0LXdlYmtpdC1hcHBlYXJhbmNlOiBub25lO1xuXHRcdFx0XHRcdFx0ZGlzcGxheTogaW5saW5lLWJsb2NrO1xuXHRcdFx0XHRcdFx0Ym9yZGVyOiAxcHggc29saWQgIzAzNjZlZTtcblx0XHRcdFx0XHRcdGJvcmRlci1yYWRpdXM6IDRweDtcblx0XHRcdFx0XHRcdGJhY2tncm91bmQ6ICMwMzY2ZWU7XG5cdFx0XHRcdFx0XHRjb2xvcjogI2ZmZmZmZjtcblx0XHRcdFx0XHRcdGZvbnQtd2VpZ2h0OiA2MDA7XG5cdFx0XHRcdFx0XHRmb250LWZhbWlseTogLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCBIZWx2ZXRpY2EgTmV1ZSxcblx0XHRcdFx0XHRcdFx0SGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZjtcblx0XHRcdFx0XHRcdGZvbnQtc2l6ZTogMXJlbTtcblx0XHRcdFx0XHRcdHRleHQtdHJhbnNmb3JtOiBub25lO1xuXHRcdFx0XHRcdFx0cGFkZGluZzogMC43NXJlbSAxLjI1cmVtO1xuXHRcdFx0XHRcdFx0bWFyZ2luOiAwIDAgMC41cmVtIDA7XG5cdFx0XHRcdFx0XHR2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xuXHRcdFx0XHRcdFx0dGV4dC1hbGlnbjogY2VudGVyO1xuXHRcdFx0XHRcdFx0Y3Vyc29yOiBwb2ludGVyO1xuXHRcdFx0XHRcdFx0dGV4dC1kZWNvcmF0aW9uOiBub25lO1xuXHRcdFx0XHRcdFx0bGluZS1oZWlnaHQ6IDE7XG5cdFx0XHRcdFx0fVxuXG5cdFx0XHRcdFx0LmJ1dHRvbjpob3Zlcixcblx0XHRcdFx0XHRhLmJ1dHRvbjpob3Zlcixcblx0XHRcdFx0XHRidXR0b246aG92ZXIsXG5cdFx0XHRcdFx0W3R5cGU9J3N1Ym1pdCddOmhvdmVyLFxuXHRcdFx0XHRcdFt0eXBlPSdyZXNldCddOmhvdmVyLFxuXHRcdFx0XHRcdFt0eXBlPSdidXR0b24nXTpob3ZlciB7XG5cdFx0XHRcdFx0XHRib3JkZXI6IDFweCBzb2xpZCAjMDI1MGJjO1xuXHRcdFx0XHRcdFx0YmFja2dyb3VuZDogIzAyNTBiYztcblx0XHRcdFx0XHRcdGNvbG9yOiAjZmZmZmZmO1xuXHRcdFx0XHRcdFx0dGV4dC1kZWNvcmF0aW9uOiBub25lO1xuXHRcdFx0XHRcdH1cblxuXHRcdFx0XHRcdC5idXR0b246Zm9jdXMsXG5cdFx0XHRcdFx0LmJ1dHRvbjphY3RpdmUsXG5cdFx0XHRcdFx0YS5idXR0b246Zm9jdXMsXG5cdFx0XHRcdFx0YS5idXR0b246YWN0aXZlLFxuXHRcdFx0XHRcdGJ1dHRvbjpmb2N1cyxcblx0XHRcdFx0XHRidXR0b246YWN0aXZlLFxuXHRcdFx0XHRcdFt0eXBlPSdzdWJtaXQnXTpmb2N1cyxcblx0XHRcdFx0XHRbdHlwZT0nc3VibWl0J106YWN0aXZlLFxuXHRcdFx0XHRcdFt0eXBlPSdyZXNldCddOmZvY3VzLFxuXHRcdFx0XHRcdFt0eXBlPSdyZXNldCddOmFjdGl2ZSxcblx0XHRcdFx0XHRbdHlwZT0nYnV0dG9uJ106Zm9jdXMsXG5cdFx0XHRcdFx0W3R5cGU9J2J1dHRvbiddOmFjdGl2ZSB7XG5cdFx0XHRcdFx0XHRib3JkZXI6IDFweCBzb2xpZCAjMDI1MGJjO1xuXHRcdFx0XHRcdFx0YmFja2dyb3VuZDogIzAyNTBiYztcblx0XHRcdFx0XHRcdGNvbG9yOiAjZmZmZmZmO1xuXHRcdFx0XHRcdFx0dGV4dC1kZWNvcmF0aW9uOiBub25lO1xuXHRcdFx0XHRcdH1cblxuXHRcdFx0XHRcdC5idXR0b246Oi1tb3otZm9jdXMtaW5uZXIsXG5cdFx0XHRcdFx0YS5idXR0b246Oi1tb3otZm9jdXMtaW5uZXIsXG5cdFx0XHRcdFx0YnV0dG9uOjotbW96LWZvY3VzLWlubmVyLFxuXHRcdFx0XHRcdFt0eXBlPSdzdWJtaXQnXTo6LW1vei1mb2N1cy1pbm5lcixcblx0XHRcdFx0XHRbdHlwZT0ncmVzZXQnXTo6LW1vei1mb2N1cy1pbm5lcixcblx0XHRcdFx0XHRbdHlwZT0nYnV0dG9uJ106Oi1tb3otZm9jdXMtaW5uZXIge1xuXHRcdFx0XHRcdFx0Ym9yZGVyOiAwO1xuXHRcdFx0XHRcdFx0cGFkZGluZzogMDtcblx0XHRcdFx0XHR9XG5cdFx0XHRcdGB9XG5cdFx0XHQ8L3N0eWxlPlxuXHRcdDwvPlxuXHQpO1xufVxuIl19 */\n/*@ sourceURL=/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/components/Button.tsx */"));
 }
 
 /***/ }),
 
-/***/ "./src/components/Nav.js":
-/*!*******************************!*\
-  !*** ./src/components/Nav.js ***!
-  \*******************************/
+/***/ "./src/components/Nav.tsx":
+/*!********************************!*\
+  !*** ./src/components/Nav.tsx ***!
+  \********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9276,8 +9276,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Button */ "./src/components/Button.js");
-var _jsxFileName = "/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/components/Nav.js";
+/* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Button */ "./src/components/Button.tsx");
+var _jsxFileName = "/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/components/Nav.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -9350,42 +9350,27 @@ function Nav() {
     __self: this
   }, __jsx(_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
     text: 'Contact Us',
-    link: '/contact',
+    link: '/contactUs',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  })), __jsx("li", {
-    className: "jsx-1265554084",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, __jsx(_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    text: 'Lunch Me',
-    link: '/woot',
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
   })))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "640589675",
     __self: this
-  }, ".jsx-1265554084{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:frow;-ms-flex-direction:frow;flex-direction:frow;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;background:#e30613;width:100%;}.nav-bar.jsx-1265554084{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9rYXJuZWxsLnNjaHVsdHovRG9jdW1lbnRzL2phdmFTY3JpcHQvd29rODhOZXh0L3dvazg4bmV4dC9zcmMvY29tcG9uZW50cy9OYXYuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBeUJlLEFBRWtCLEFBTUMsMEVBTE0sQUFNcEIsd0VBTDhCLG1IQUNYLG1CQUNSLFdBSVoiLCJmaWxlIjoiL1VzZXJzL2thcm5lbGwuc2NodWx0ei9Eb2N1bWVudHMvamF2YVNjcmlwdC93b2s4OE5leHQvd29rODhuZXh0L3NyYy9jb21wb25lbnRzL05hdi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgQnV0dG9uIGZyb20gJy4vQnV0dG9uJztcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTmF2KCkge1xuXHRyZXR1cm4gKFxuXHRcdDw+XG5cdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cIm5hdi1iYXJcIj5cblx0XHRcdFx0PHVsPlxuXHRcdFx0XHRcdDxsaT5cblx0XHRcdFx0XHRcdDxCdXR0b24gdGV4dD17J0hlbSd9IGxpbms9eycvJ30+PC9CdXR0b24+XG5cdFx0XHRcdFx0PC9saT5cblx0XHRcdFx0XHQ8bGk+XG5cdFx0XHRcdFx0XHQ8QnV0dG9uIHRleHQ9eydsdW5jaE1lbnUnfSBsaW5rPXsnL2x1bmNobWVudSd9PjwvQnV0dG9uPlxuXHRcdFx0XHRcdDwvbGk+XG5cdFx0XHRcdFx0PGxpPlxuXHRcdFx0XHRcdFx0PEJ1dHRvbiB0ZXh0PXsnQSBsYSBDYXJ0ZSd9PjwvQnV0dG9uPlxuXHRcdFx0XHRcdDwvbGk+XG5cdFx0XHRcdFx0PGxpPlxuXHRcdFx0XHRcdFx0PEJ1dHRvbiB0ZXh0PXsnQ29udGFjdCBVcyd9IGxpbms9eycvY29udGFjdCd9PjwvQnV0dG9uPlxuXHRcdFx0XHRcdDwvbGk+XG5cdFx0XHRcdFx0PGxpPlxuXHRcdFx0XHRcdFx0PEJ1dHRvbiB0ZXh0PXsnTHVuY2ggTWUnfSBsaW5rPXsnL3dvb3QnfSAvPlxuXHRcdFx0XHRcdDwvbGk+XG5cdFx0XHRcdDwvdWw+XG5cdFx0XHQ8L2Rpdj5cblx0XHRcdDxzdHlsZSBqc3g+e2Bcblx0XHRcdFx0ZGlzcGxheTogZmxleDtcblx0XHRcdFx0ZmxleC1kaXJlY3Rpb246IGZyb3c7XG5cdFx0XHRcdGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2Vlbjtcblx0XHRcdFx0YmFja2dyb3VuZDogI2UzMDYxMztcblx0XHRcdFx0d2lkdGg6IDEwMCU7XG5cdFx0XHRcdC5uYXYtYmFyIHtcblx0XHRcdFx0XHRkaXNwbGF5OiBmbGV4O1xuXHRcdFx0XHR9XG5cdFx0XHRgfTwvc3R5bGU+XG5cdFx0XHQ8c3R5bGUgZ2xvYmFsIGpzeD57YFxuXHRcdFx0XHRib2R5IHtcblx0XHRcdFx0XHRiYWNrZ3JvdW5kOiAjZmZmZmYwO1xuXHRcdFx0XHR9XG5cdFx0XHRgfTwvc3R5bGU+XG5cdFx0PC8+XG5cdCk7XG59XG4iXX0= */\n/*@ sourceURL=/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/components/Nav.js */"), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  }, ".jsx-1265554084{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:frow;-ms-flex-direction:frow;flex-direction:frow;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;background:#e30613;width:100%;}.nav-bar.jsx-1265554084{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9rYXJuZWxsLnNjaHVsdHovRG9jdW1lbnRzL2phdmFTY3JpcHQvd29rODhOZXh0L3dvazg4bmV4dC9zcmMvY29tcG9uZW50cy9OYXYudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXNCZSxBQUVrQixBQU1DLDBFQUxNLEFBTXBCLHdFQUw4QixtSEFDWCxtQkFDUixXQUlaIiwiZmlsZSI6Ii9Vc2Vycy9rYXJuZWxsLnNjaHVsdHovRG9jdW1lbnRzL2phdmFTY3JpcHQvd29rODhOZXh0L3dvazg4bmV4dC9zcmMvY29tcG9uZW50cy9OYXYudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBCdXR0b24gZnJvbSAnLi9CdXR0b24nO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBOYXYoKSB7XG5cdHJldHVybiAoXG5cdFx0PD5cblx0XHRcdDxkaXYgY2xhc3NOYW1lPVwibmF2LWJhclwiPlxuXHRcdFx0XHQ8dWw+XG5cdFx0XHRcdFx0PGxpPlxuXHRcdFx0XHRcdFx0PEJ1dHRvbiB0ZXh0PXsnSGVtJ30gbGluaz17Jy8nfT48L0J1dHRvbj5cblx0XHRcdFx0XHQ8L2xpPlxuXHRcdFx0XHRcdDxsaT5cblx0XHRcdFx0XHRcdDxCdXR0b24gdGV4dD17J2x1bmNoTWVudSd9IGxpbms9eycvbHVuY2htZW51J30+PC9CdXR0b24+XG5cdFx0XHRcdFx0PC9saT5cblx0XHRcdFx0XHQ8bGk+XG5cdFx0XHRcdFx0XHQ8QnV0dG9uIHRleHQ9eydBIGxhIENhcnRlJ30+PC9CdXR0b24+XG5cdFx0XHRcdFx0PC9saT5cblx0XHRcdFx0XHQ8bGk+XG5cdFx0XHRcdFx0XHQ8QnV0dG9uIHRleHQ9eydDb250YWN0IFVzJ30gbGluaz17Jy9jb250YWN0VXMnfT48L0J1dHRvbj5cblx0XHRcdFx0XHQ8L2xpPlxuXHRcdFx0XHQ8L3VsPlxuXHRcdFx0PC9kaXY+XG5cdFx0XHQ8c3R5bGUganN4PntgXG5cdFx0XHRcdGRpc3BsYXk6IGZsZXg7XG5cdFx0XHRcdGZsZXgtZGlyZWN0aW9uOiBmcm93O1xuXHRcdFx0XHRqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XG5cdFx0XHRcdGJhY2tncm91bmQ6ICNlMzA2MTM7XG5cdFx0XHRcdHdpZHRoOiAxMDAlO1xuXHRcdFx0XHQubmF2LWJhciB7XG5cdFx0XHRcdFx0ZGlzcGxheTogZmxleDtcblx0XHRcdFx0fVxuXHRcdFx0YH08L3N0eWxlPlxuXHRcdFx0PHN0eWxlIGdsb2JhbCBqc3g+e2Bcblx0XHRcdFx0Ym9keSB7XG5cdFx0XHRcdFx0YmFja2dyb3VuZDogI2ZmZmZmMDtcblx0XHRcdFx0fVxuXHRcdFx0YH08L3N0eWxlPlxuXHRcdDwvPlxuXHQpO1xufVxuIl19 */\n/*@ sourceURL=/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/components/Nav.tsx */"), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "248257894",
     __self: this
-  }, "body{background:#fffff0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9rYXJuZWxsLnNjaHVsdHovRG9jdW1lbnRzL2phdmFTY3JpcHQvd29rODhOZXh0L3dvazg4bmV4dC9zcmMvY29tcG9uZW50cy9OYXYuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbUNzQixBQUd5QixtQkFDcEIiLCJmaWxlIjoiL1VzZXJzL2thcm5lbGwuc2NodWx0ei9Eb2N1bWVudHMvamF2YVNjcmlwdC93b2s4OE5leHQvd29rODhuZXh0L3NyYy9jb21wb25lbnRzL05hdi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgQnV0dG9uIGZyb20gJy4vQnV0dG9uJztcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTmF2KCkge1xuXHRyZXR1cm4gKFxuXHRcdDw+XG5cdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cIm5hdi1iYXJcIj5cblx0XHRcdFx0PHVsPlxuXHRcdFx0XHRcdDxsaT5cblx0XHRcdFx0XHRcdDxCdXR0b24gdGV4dD17J0hlbSd9IGxpbms9eycvJ30+PC9CdXR0b24+XG5cdFx0XHRcdFx0PC9saT5cblx0XHRcdFx0XHQ8bGk+XG5cdFx0XHRcdFx0XHQ8QnV0dG9uIHRleHQ9eydsdW5jaE1lbnUnfSBsaW5rPXsnL2x1bmNobWVudSd9PjwvQnV0dG9uPlxuXHRcdFx0XHRcdDwvbGk+XG5cdFx0XHRcdFx0PGxpPlxuXHRcdFx0XHRcdFx0PEJ1dHRvbiB0ZXh0PXsnQSBsYSBDYXJ0ZSd9PjwvQnV0dG9uPlxuXHRcdFx0XHRcdDwvbGk+XG5cdFx0XHRcdFx0PGxpPlxuXHRcdFx0XHRcdFx0PEJ1dHRvbiB0ZXh0PXsnQ29udGFjdCBVcyd9IGxpbms9eycvY29udGFjdCd9PjwvQnV0dG9uPlxuXHRcdFx0XHRcdDwvbGk+XG5cdFx0XHRcdFx0PGxpPlxuXHRcdFx0XHRcdFx0PEJ1dHRvbiB0ZXh0PXsnTHVuY2ggTWUnfSBsaW5rPXsnL3dvb3QnfSAvPlxuXHRcdFx0XHRcdDwvbGk+XG5cdFx0XHRcdDwvdWw+XG5cdFx0XHQ8L2Rpdj5cblx0XHRcdDxzdHlsZSBqc3g+e2Bcblx0XHRcdFx0ZGlzcGxheTogZmxleDtcblx0XHRcdFx0ZmxleC1kaXJlY3Rpb246IGZyb3c7XG5cdFx0XHRcdGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2Vlbjtcblx0XHRcdFx0YmFja2dyb3VuZDogI2UzMDYxMztcblx0XHRcdFx0d2lkdGg6IDEwMCU7XG5cdFx0XHRcdC5uYXYtYmFyIHtcblx0XHRcdFx0XHRkaXNwbGF5OiBmbGV4O1xuXHRcdFx0XHR9XG5cdFx0XHRgfTwvc3R5bGU+XG5cdFx0XHQ8c3R5bGUgZ2xvYmFsIGpzeD57YFxuXHRcdFx0XHRib2R5IHtcblx0XHRcdFx0XHRiYWNrZ3JvdW5kOiAjZmZmZmYwO1xuXHRcdFx0XHR9XG5cdFx0XHRgfTwvc3R5bGU+XG5cdFx0PC8+XG5cdCk7XG59XG4iXX0= */\n/*@ sourceURL=/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/components/Nav.js */"));
+  }, "body{background:#fffff0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9rYXJuZWxsLnNjaHVsdHovRG9jdW1lbnRzL2phdmFTY3JpcHQvd29rODhOZXh0L3dvazg4bmV4dC9zcmMvY29tcG9uZW50cy9OYXYudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWdDc0IsQUFHeUIsbUJBQ3BCIiwiZmlsZSI6Ii9Vc2Vycy9rYXJuZWxsLnNjaHVsdHovRG9jdW1lbnRzL2phdmFTY3JpcHQvd29rODhOZXh0L3dvazg4bmV4dC9zcmMvY29tcG9uZW50cy9OYXYudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBCdXR0b24gZnJvbSAnLi9CdXR0b24nO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBOYXYoKSB7XG5cdHJldHVybiAoXG5cdFx0PD5cblx0XHRcdDxkaXYgY2xhc3NOYW1lPVwibmF2LWJhclwiPlxuXHRcdFx0XHQ8dWw+XG5cdFx0XHRcdFx0PGxpPlxuXHRcdFx0XHRcdFx0PEJ1dHRvbiB0ZXh0PXsnSGVtJ30gbGluaz17Jy8nfT48L0J1dHRvbj5cblx0XHRcdFx0XHQ8L2xpPlxuXHRcdFx0XHRcdDxsaT5cblx0XHRcdFx0XHRcdDxCdXR0b24gdGV4dD17J2x1bmNoTWVudSd9IGxpbms9eycvbHVuY2htZW51J30+PC9CdXR0b24+XG5cdFx0XHRcdFx0PC9saT5cblx0XHRcdFx0XHQ8bGk+XG5cdFx0XHRcdFx0XHQ8QnV0dG9uIHRleHQ9eydBIGxhIENhcnRlJ30+PC9CdXR0b24+XG5cdFx0XHRcdFx0PC9saT5cblx0XHRcdFx0XHQ8bGk+XG5cdFx0XHRcdFx0XHQ8QnV0dG9uIHRleHQ9eydDb250YWN0IFVzJ30gbGluaz17Jy9jb250YWN0VXMnfT48L0J1dHRvbj5cblx0XHRcdFx0XHQ8L2xpPlxuXHRcdFx0XHQ8L3VsPlxuXHRcdFx0PC9kaXY+XG5cdFx0XHQ8c3R5bGUganN4PntgXG5cdFx0XHRcdGRpc3BsYXk6IGZsZXg7XG5cdFx0XHRcdGZsZXgtZGlyZWN0aW9uOiBmcm93O1xuXHRcdFx0XHRqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XG5cdFx0XHRcdGJhY2tncm91bmQ6ICNlMzA2MTM7XG5cdFx0XHRcdHdpZHRoOiAxMDAlO1xuXHRcdFx0XHQubmF2LWJhciB7XG5cdFx0XHRcdFx0ZGlzcGxheTogZmxleDtcblx0XHRcdFx0fVxuXHRcdFx0YH08L3N0eWxlPlxuXHRcdFx0PHN0eWxlIGdsb2JhbCBqc3g+e2Bcblx0XHRcdFx0Ym9keSB7XG5cdFx0XHRcdFx0YmFja2dyb3VuZDogI2ZmZmZmMDtcblx0XHRcdFx0fVxuXHRcdFx0YH08L3N0eWxlPlxuXHRcdDwvPlxuXHQpO1xufVxuIl19 */\n/*@ sourceURL=/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/components/Nav.tsx */"));
 }
 
 /***/ }),
 
-/***/ "./src/components/PageWrapper.js":
-/*!***************************************!*\
-  !*** ./src/components/PageWrapper.js ***!
-  \***************************************/
+/***/ "./src/components/PageWrapper.tsx":
+/*!****************************************!*\
+  !*** ./src/components/PageWrapper.tsx ***!
+  \****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9396,7 +9381,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/components/PageWrapper.js";
+var _jsxFileName = "/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/components/PageWrapper.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -9404,7 +9389,7 @@ function PageWrapper({
   children
 }) {
   return __jsx("div", {
-    className: "jsx-1727269062",
+    className: "jsx-2499117984",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -9413,16 +9398,16 @@ function PageWrapper({
   }, __jsx("img", {
     src: "http://www.wok88.se/logotype.png",
     alt: "drag-on",
-    className: "jsx-1727269062",
+    className: "jsx-2499117984",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
   }), children, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1727269062",
+    id: "2499117984",
     __self: this
-  }, ".jsx-1727269062{-moz-box-shadow:3px 3px 5px 6px #ccc;-webkit-box-shadow:3px 3px 5px 6px #ccc;box-shadow:3px 3px 5px 6px #ccc;width:800px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9rYXJuZWxsLnNjaHVsdHovRG9jdW1lbnRzL2phdmFTY3JpcHQvd29rODhOZXh0L3dvazg4bmV4dC9zcmMvY29tcG9uZW50cy9QYWdlV3JhcHBlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFPZSxBQUUwQyxxQ0FDRyx3Q0FDUixnQ0FDcEIsWUFDYiIsImZpbGUiOiIvVXNlcnMva2FybmVsbC5zY2h1bHR6L0RvY3VtZW50cy9qYXZhU2NyaXB0L3dvazg4TmV4dC93b2s4OG5leHQvc3JjL2NvbXBvbmVudHMvUGFnZVdyYXBwZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBQYWdlV3JhcHBlcih7IGNoaWxkcmVuIH0pIHtcblx0cmV0dXJuIChcblx0XHQ8ZGl2PlxuXHRcdFx0PGltZyBzcmM9XCJodHRwOi8vd3d3Lndvazg4LnNlL2xvZ290eXBlLnBuZ1wiIGFsdD1cImRyYWctb25cIiAvPlxuXHRcdFx0e2NoaWxkcmVufVxuXHRcdFx0PHN0eWxlIGpzeD57YFxuXHRcdFx0XHQtbW96LWJveC1zaGFkb3c6IDNweCAzcHggNXB4IDZweCAjY2NjO1xuXHRcdFx0XHQtd2Via2l0LWJveC1zaGFkb3c6IDNweCAzcHggNXB4IDZweCAjY2NjO1xuXHRcdFx0XHRib3gtc2hhZG93OiAzcHggM3B4IDVweCA2cHggI2NjYztcblx0XHRcdFx0d2lkdGg6IDgwMHB4O1xuXHRcdFx0YH08L3N0eWxlPlxuXHRcdDwvZGl2PlxuXHQpO1xufVxuIl19 */\n/*@ sourceURL=/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/components/PageWrapper.js */"));
+  }, ".jsx-2499117984{-moz-box-shadow:3px 3px 5px 6px #ccc;-webkit-box-shadow:3px 3px 5px 6px #ccc;box-shadow:3px 3px 5px 6px #ccc;width:800px;margin:auto;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9rYXJuZWxsLnNjaHVsdHovRG9jdW1lbnRzL2phdmFTY3JpcHQvd29rODhOZXh0L3dvazg4bmV4dC9zcmMvY29tcG9uZW50cy9QYWdlV3JhcHBlci50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBT2UsQUFFMEMscUNBQ0csd0NBQ1IsZ0NBQ3BCLFlBQ0EsWUFDYiIsImZpbGUiOiIvVXNlcnMva2FybmVsbC5zY2h1bHR6L0RvY3VtZW50cy9qYXZhU2NyaXB0L3dvazg4TmV4dC93b2s4OG5leHQvc3JjL2NvbXBvbmVudHMvUGFnZVdyYXBwZXIudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUGFnZVdyYXBwZXIoeyBjaGlsZHJlbiB9KSB7XG5cdHJldHVybiAoXG5cdFx0PGRpdj5cblx0XHRcdDxpbWcgc3JjPVwiaHR0cDovL3d3dy53b2s4OC5zZS9sb2dvdHlwZS5wbmdcIiBhbHQ9XCJkcmFnLW9uXCIgLz5cblx0XHRcdHtjaGlsZHJlbn1cblx0XHRcdDxzdHlsZSBqc3g+e2Bcblx0XHRcdFx0LW1vei1ib3gtc2hhZG93OiAzcHggM3B4IDVweCA2cHggI2NjYztcblx0XHRcdFx0LXdlYmtpdC1ib3gtc2hhZG93OiAzcHggM3B4IDVweCA2cHggI2NjYztcblx0XHRcdFx0Ym94LXNoYWRvdzogM3B4IDNweCA1cHggNnB4ICNjY2M7XG5cdFx0XHRcdHdpZHRoOiA4MDBweDtcblx0XHRcdFx0bWFyZ2luOiBhdXRvO1xuXHRcdFx0YH08L3N0eWxlPlxuXHRcdDwvZGl2PlxuXHQpO1xufVxuIl19 */\n/*@ sourceURL=/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/components/PageWrapper.tsx */"));
 }
 
 /***/ }),
@@ -9441,9 +9426,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Nav */ "./src/components/Nav.js");
-/* harmony import */ var _components_Body__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Body */ "./src/components/Body.js");
-/* harmony import */ var _components_PageWrapper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/PageWrapper */ "./src/components/PageWrapper.js");
+/* harmony import */ var _components_Nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Nav */ "./src/components/Nav.tsx");
+/* harmony import */ var _components_Body__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Body */ "./src/components/Body.tsx");
+/* harmony import */ var _components_PageWrapper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/PageWrapper */ "./src/components/PageWrapper.tsx");
 var _jsxFileName = "/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/pages/index.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -9469,64 +9454,71 @@ function HomePage() {
       lineNumber: 18
     },
     __self: this
-  }, __jsx("div", {
-    className: "jsx-3058357043",
+  }, __jsx(_components_Nav__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }, __jsx(_components_Nav__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), __jsx(_components_Body__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
-  }), __jsx(_components_Body__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, __jsx("div", {
+    className: "jsx-2663092106" + " " + "header-content",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }, __jsx("div", {
-    className: "jsx-3058357043",
+  }, __jsx("h1", {
+    className: "jsx-2663092106",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }, __jsx("h2", {
-    className: "jsx-3058357043",
+  }, "\xD6ppettider"), __jsx("h4", {
+    className: "jsx-2663092106",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
-  }, "\xD6ppettider"), __jsx("h4", {
-    className: "jsx-3058357043",
+  }, "M\xE5ndag St\xE4ngt"), __jsx("h4", {
+    className: "jsx-2663092106",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
-  }, "M\xE5ndag St\xE4ngt")), __jsx("img", {
-    src: "http://www.wok88.se/foto/bild".concat(foodImage, ".jpg"),
-    alt: "food stuff in this one",
-    className: "jsx-3058357043",
+  }, "Tisdag - Fredag")), __jsx("div", {
+    className: "jsx-2663092106" + " " + "food-images",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
     },
     __self: this
-  })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3058357043",
+  }, __jsx("img", {
+    src: "http://www.wok88.se/foto/bild".concat(foodImage, ".jpg"),
+    alt: "food stuff in this one",
+    className: "jsx-2663092106",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
     __self: this
-  }, ".jsx-3058357043{background:gold;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin:auto;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9rYXJuZWxsLnNjaHVsdHovRG9jdW1lbnRzL2phdmFTY3JpcHQvd29rODhOZXh0L3dvazg4bmV4dC9zcmMvcGFnZXMvaW5kZXgudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQThCZ0IsQUFFc0IsZ0JBQ0gsMEVBQ1MsOEVBQ1YsWUFDYiIsImZpbGUiOiIvVXNlcnMva2FybmVsbC5zY2h1bHR6L0RvY3VtZW50cy9qYXZhU2NyaXB0L3dvazg4TmV4dC93b2s4OG5leHQvc3JjL3BhZ2VzL2luZGV4LnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnO1xuaW1wb3J0IE5hdiBmcm9tICcuLi9jb21wb25lbnRzL05hdic7XG5pbXBvcnQgQm9keSBmcm9tICcuLi9jb21wb25lbnRzL0JvZHknO1xuaW1wb3J0IFBhZ2VXcmFwcGVyIGZyb20gJy4uL2NvbXBvbmVudHMvUGFnZVdyYXBwZXInO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBIb21lUGFnZSgpIHtcblx0Y29uc3QgW2Zvb2RJbWFnZSwgc2V0Rm9vZEltYWdlXSA9IHVzZVN0YXRlKDEpO1xuXG5cdHVzZUVmZmVjdCgoKSA9PiB7XG5cdFx0Y29uc3QgaW50ZXJ2YWwgPSBzZXRJbnRlcnZhbCgoKSA9PiB7XG5cdFx0XHRjb25zb2xlLmxvZygneW9vb28nLCBmb29kSW1hZ2UpO1xuXHRcdFx0Zm9vZEltYWdlID49IDkgPyBzZXRGb29kSW1hZ2UoMSkgOiBzZXRGb29kSW1hZ2UoZm9vZEltYWdlICsgMSk7XG5cdFx0fSwgMzAwMCk7XG5cdFx0cmV0dXJuICgpID0+IGNsZWFySW50ZXJ2YWwoaW50ZXJ2YWwpO1xuXHR9LCBbZm9vZEltYWdlXSk7XG5cblx0cmV0dXJuIChcblx0XHQ8UGFnZVdyYXBwZXI+XG5cdFx0XHQ8ZGl2PlxuXHRcdFx0XHQ8TmF2IC8+XG5cdFx0XHRcdDxCb2R5PlxuXHRcdFx0XHRcdDxkaXY+XG5cdFx0XHRcdFx0XHQ8aDI+w5ZwcGV0dGlkZXI8L2gyPlxuXHRcdFx0XHRcdFx0PGg0Pk3DpW5kYWcgU3TDpG5ndDwvaDQ+XG5cdFx0XHRcdFx0PC9kaXY+XG5cdFx0XHRcdFx0PGltZ1xuXHRcdFx0XHRcdFx0c3JjPXtgaHR0cDovL3d3dy53b2s4OC5zZS9mb3RvL2JpbGQke2Zvb2RJbWFnZX0uanBnYH1cblx0XHRcdFx0XHRcdGFsdD1cImZvb2Qgc3R1ZmYgaW4gdGhpcyBvbmVcIlxuXHRcdFx0XHRcdC8+XG5cdFx0XHRcdDwvQm9keT5cblx0XHRcdFx0PHN0eWxlIGpzeD57YFxuXHRcdFx0XHRcdGJhY2tncm91bmQ6IGdvbGQ7XG5cdFx0XHRcdFx0ZGlzcGxheTogZmxleDtcblx0XHRcdFx0XHRmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuXHRcdFx0XHRcdG1hcmdpbjogYXV0bztcblx0XHRcdFx0YH08L3N0eWxlPlxuXHRcdFx0PC9kaXY+XG5cdFx0PC9QYWdlV3JhcHBlcj5cblx0KTtcbn1cblxuLy8gI2UzMDYxMyBoZWFkZXIgY29sb3JcbiJdfQ== */\n/*@ sourceURL=/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/pages/index.tsx */")));
+  }))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "2663092106",
+    __self: this
+  }, ".jsx-2663092106{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin:auto;}.header-content.jsx-2663092106{margin:2rem;}.food-images.jsx-2663092106{margin:1.5rem;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9rYXJuZWxsLnNjaHVsdHovRG9jdW1lbnRzL2phdmFTY3JpcHQvd29rODhOZXh0L3dvazg4bmV4dC9zcmMvcGFnZXMvaW5kZXgudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWdDZSxBQUdrQixBQUtBLEFBR0UsWUFGZixFQUdBLDREQVJzQiw4RUFDVixZQVFiIiwiZmlsZSI6Ii9Vc2Vycy9rYXJuZWxsLnNjaHVsdHovRG9jdW1lbnRzL2phdmFTY3JpcHQvd29rODhOZXh0L3dvazg4bmV4dC9zcmMvcGFnZXMvaW5kZXgudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7XG5pbXBvcnQgTmF2IGZyb20gJy4uL2NvbXBvbmVudHMvTmF2JztcbmltcG9ydCBCb2R5IGZyb20gJy4uL2NvbXBvbmVudHMvQm9keSc7XG5pbXBvcnQgUGFnZVdyYXBwZXIgZnJvbSAnLi4vY29tcG9uZW50cy9QYWdlV3JhcHBlcic7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhvbWVQYWdlKCkge1xuXHRjb25zdCBbZm9vZEltYWdlLCBzZXRGb29kSW1hZ2VdID0gdXNlU3RhdGUoMSk7XG5cblx0dXNlRWZmZWN0KCgpID0+IHtcblx0XHRjb25zdCBpbnRlcnZhbCA9IHNldEludGVydmFsKCgpID0+IHtcblx0XHRcdGNvbnNvbGUubG9nKCd5b29vbycsIGZvb2RJbWFnZSk7XG5cdFx0XHRmb29kSW1hZ2UgPj0gOSA/IHNldEZvb2RJbWFnZSgxKSA6IHNldEZvb2RJbWFnZShmb29kSW1hZ2UgKyAxKTtcblx0XHR9LCAzMDAwKTtcblx0XHRyZXR1cm4gKCkgPT4gY2xlYXJJbnRlcnZhbChpbnRlcnZhbCk7XG5cdH0sIFtmb29kSW1hZ2VdKTtcblxuXHRyZXR1cm4gKFxuXHRcdDxQYWdlV3JhcHBlcj5cblx0XHRcdDxOYXYgLz5cblx0XHRcdDxCb2R5PlxuXHRcdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cImhlYWRlci1jb250ZW50XCI+XG5cdFx0XHRcdFx0PGgxPsOWcHBldHRpZGVyPC9oMT5cblx0XHRcdFx0XHQ8aDQ+TcOlbmRhZyBTdMOkbmd0PC9oND5cblx0XHRcdFx0XHQ8aDQ+VGlzZGFnIC0gRnJlZGFnPC9oND5cblx0XHRcdFx0PC9kaXY+XG5cdFx0XHRcdDxkaXYgY2xhc3NOYW1lPVwiZm9vZC1pbWFnZXNcIj5cblx0XHRcdFx0XHQ8aW1nXG5cdFx0XHRcdFx0XHRzcmM9e2BodHRwOi8vd3d3Lndvazg4LnNlL2ZvdG8vYmlsZCR7Zm9vZEltYWdlfS5qcGdgfVxuXHRcdFx0XHRcdFx0YWx0PVwiZm9vZCBzdHVmZiBpbiB0aGlzIG9uZVwiXG5cdFx0XHRcdFx0Lz5cblx0XHRcdFx0PC9kaXY+XG5cdFx0XHQ8L0JvZHk+XG5cdFx0XHQ8c3R5bGUganN4PntgXG5cdFx0XHRcdC8vIGJhY2tncm91bmQ6IGdvbGQ7XG5cdFx0XHRcdGRpc3BsYXk6IGZsZXg7XG5cdFx0XHRcdGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG5cdFx0XHRcdG1hcmdpbjogYXV0bztcblxuXHRcdFx0XHQuaGVhZGVyLWNvbnRlbnQge1xuXHRcdFx0XHRcdG1hcmdpbjogMnJlbTtcblx0XHRcdFx0fVxuXHRcdFx0XHQuZm9vZC1pbWFnZXMge1xuXHRcdFx0XHRcdG1hcmdpbjogMS41cmVtO1xuXHRcdFx0XHR9XG5cdFx0XHRgfTwvc3R5bGU+XG5cdFx0PC9QYWdlV3JhcHBlcj5cblx0KTtcbn1cblxuLy8gI2UzMDYxMyBoZWFkZXIgY29sb3JcbiJdfQ== */\n/*@ sourceURL=/Users/karnell.schultz/Documents/javaScript/wok88Next/wok88next/src/pages/index.tsx */"));
 } // #e30613 header color
 
 /***/ }),
 
-/***/ 1:
+/***/ 3:
 /*!**********************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fkarnell.schultz%2FDocuments%2FjavaScript%2Fwok88Next%2Fwok88next%2Fsrc%2Fpages%2Findex.tsx ***!
   \**********************************************************************************************************************************************************************/
@@ -9549,5 +9541,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

@@ -16,25 +16,33 @@ export default function HomePage() {
 
 	return (
 		<PageWrapper>
-			<div>
-				<Nav />
-				<Body>
-					<div>
-						<h2>Öppettider</h2>
-						<h4>Måndag Stängt</h4>
-					</div>
+			<Nav />
+			<Body>
+				<div className="header-content">
+					<h1>Öppettider</h1>
+					<h4>Måndag Stängt</h4>
+					<h4>Tisdag - Fredag</h4>
+				</div>
+				<div className="food-images">
 					<img
 						src={`http://www.wok88.se/foto/bild${foodImage}.jpg`}
 						alt="food stuff in this one"
 					/>
-				</Body>
-				<style jsx>{`
-					background: gold;
-					display: flex;
-					flex-direction: column;
-					margin: auto;
-				`}</style>
-			</div>
+				</div>
+			</Body>
+			<style jsx>{`
+				// background: gold;
+				display: flex;
+				flex-direction: column;
+				margin: auto;
+
+				.header-content {
+					margin: 2rem;
+				}
+				.food-images {
+					margin: 1.5rem;
+				}
+			`}</style>
 		</PageWrapper>
 	);
 }
