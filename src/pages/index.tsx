@@ -9,8 +9,7 @@ export default function HomePage() {
 	useEffect(() => {
 		const interval = setInterval(() => {
 			console.log('yoooo', foodImage);
-			// IF STATMENT?
-			setFoodImage(foodImage + 1);
+			foodImage >= 9 ? setFoodImage(1) : setFoodImage(foodImage + 1);
 		}, 3000);
 		return () => clearInterval(interval);
 	}, [foodImage]);
