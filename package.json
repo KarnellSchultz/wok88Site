@@ -9,7 +9,8 @@
 		"next": "^9.2.1",
 		"react": "^16.12.0",
 		"react-dom": "^16.12.0",
-		"react-scripts": "3.3.0"
+		"react-scripts": "3.3.0",
+		"react-spring": "^8.0.27"
 	},
 	"scripts": {
 		"dev": "next",
@@ -32,6 +33,9 @@
 		]
 	},
 	"devDependencies": {
+		"@types/node": "^13.7.4",
+		"@types/react": "^16.9.21",
+		"@types/react-dom": "^16.9.5",
 		"typescript": "^3.8.2"
 	}
 }
